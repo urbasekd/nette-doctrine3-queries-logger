@@ -1,0 +1,26 @@
+{
+    "name": "urbasekd/nette-doctrine3-queries-logger",
+    "homepage": "https://www.onemark.cz",
+    "type": "library",
+    "description": "Shows Doctrine3 queries in Debug Bar",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "David Urbášek",
+            "homepage": "http://www.onemark.cz"
+        },
+        {
+            "name": "Jan Rybařík",
+            "homepage": "http://www.onemark.cz"
+        }
+    ],
+    "require": {
+        "php": ">= 8.0",
+        "nette/nette": "^3",
+        "nette/database": "^3",
+        "tracy/tracy": "^2",
+        "doctrine/dbal": "^4"
+    }
+}

@@ -22,5 +22,8 @@
         "nette/database": "^3",
         "tracy/tracy": "^2",
         "doctrine/dbal": "^4"
+    },
+    "autoload": {
+        "psr-4": {"OM\\Doctrine\\QueriesLogger\\": "src/"}
     }
 }

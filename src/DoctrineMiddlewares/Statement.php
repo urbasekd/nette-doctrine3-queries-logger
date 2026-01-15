@@ -20,7 +20,7 @@ final class Statement extends AbstractStatementMiddleware
 
     public function bindValue(int|string $param, mixed $value, ParameterType $type): void
     {
-        $this->params[] = $param;
+        $this->params[] = $value;
         parent::bindValue($param, $value, $type);
     }
 
